@@ -1,25 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap');
 
 :root {
-  --background: #a5f4dc;
-  --textcolor: #165B11;
+    --background: #a5f4dc;
+    --textcolor: #165B11;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: Montserrat, sans-serif;
+    font-family: Montserrat, sans-serif;
 }
 
-section{
+header {
+    height: 100px;
+    background-color: var(--background);
+}
+
+section {
     height: 400px;
 }
 
-footer{
+footer {
     height: 100px;
     background-color: var(--background);
 }
