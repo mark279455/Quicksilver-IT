@@ -73,10 +73,11 @@ body {
 /* center section */
 #center {
     background: url('../images/background.jpg');
+    background-color: blueviolet;
     font-family: Ubuntu, sans-serif;
-    height: 2000px;
 }
 
+/* sales */
 #sales {
     display: flex;
     justify-content: flex-start;
@@ -128,6 +129,7 @@ body {
     }
 }
 
+/* solutions */
 #solutions ul {
     display: flex;
     flex-direction: column;
@@ -136,7 +138,6 @@ body {
     align-items: center;
     list-style-type: none;
     margin: 1.5rem 0;
-    /* margin-bottom: 5rem; */
 }
 
 #solutions li {
@@ -146,8 +147,37 @@ body {
     padding: 1rem;
 }
 
+/* testimnoials */
+#testimonials {
+    display: flex;
+    margin-bottom: 2rem;
+}
 
+#testimonials h2 {
+    background-color: var(--background);
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding: 1rem;
+    margin: 0 2rem;
+    height: 100%;
+}
 
+#testimonials>ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0 2rem 2rem -7rem;
+}
+
+#testimonials li {
+    background-color: var(--background);
+    font-size: 0.8rem;
+    width: 80%;
+    padding: 1rem;
+}
 
 
 
