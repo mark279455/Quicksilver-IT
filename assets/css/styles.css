@@ -70,8 +70,9 @@ body {
     top: 0;
 }
 
+/* center section */
 section {
-    height: 1000px;
+    margin-top: 3rem;
     background-color: white;
 }
 
@@ -108,7 +109,7 @@ footer {
 }
 
 i {
-    font-size: 160%;
+    font-size: 1.60rem;
     color: var(--textcolor);
 }
 
