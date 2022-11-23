@@ -9,3 +9,20 @@ mobile      <i class="fa-solid fa-mobile"></i>
 backup      <i class="fa-solid fa-database"></i>
 
 other       <i class="fa-solid fa-bell-concierge"></i>
+
+
+dark
+#165B11
+#005A33
+#00584B
+#00545A
+#044E5E
+#2F4858
+
+light
+#A5F4DC
+#81D0C8
+#65ACB0
+#508995
+#3E6878
+#2F4858
