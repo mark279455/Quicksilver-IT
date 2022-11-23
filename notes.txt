@@ -1,0 +1,11 @@
+computer    <i class="fa-solid fa-computer"></i>
+
+cloud       <i class="fa-solid fa-cloud"></i>
+
+cyber       <i class="fa-solid fa-robot"></i>
+
+mobile      <i class="fa-solid fa-mobile"></i>
+
+backup      <i class="fa-solid fa-database"></i>
+
+other       <i class="fa-solid fa-bell-concierge"></i>
