@@ -12,7 +12,7 @@
         <header id="header-flex-parent" class="sticky">
             <div id="left-flex-header">
                 <img id="qit-logo" src="assets/images/logo.jpg" alt="Quicksilver IT logo">
-                <h1><a id="qit" href="index.html">NOT uicksilver IT</a></h1>
+                <h1><a id="qit" href="index.html">uicksilver IT</a></h1>
             </div>
             <ul id="right-flex-header">
                 <li><a id="active" href="index.html">home</a></li>
@@ -23,7 +23,7 @@
 
         <section id="center">
             <div id="call-us-now">
-                <div>
+                <div class="call-us-now-pushy">
                     <h2 class="blink">CALL US NOW!!! 01234 567890</h2>
                 </div>
                 <div id="contact-form">
@@ -67,6 +67,18 @@
                         </div>
 
                         <div class="input-line">
+                            <!-- num computers -->
+                            <label for="num-computers">Number of computers:</label>
+                            <input class="form-input" id="num-computers" type="number" name="num-computers" required>
+                        </div>
+
+                        <div class="input-line">
+                            <!-- how can we help -->
+                            <label for="how-can">How can we help?</label>
+                            <textarea class="form-input" name="how-can" rows="8" cols="22" form="contact-form-data"></textarea>
+                        </div>
+
+                        <div class="input-line">
                             <!-- how did you hear -->
                             <label for="how-did">How did you hear about us?</label>
                             <select id="how-did" name="how-did">
@@ -76,19 +88,6 @@
                                 <option value="word-of-mouth">Word of mouth</option>
                                 <option value="bus-networking">Business networking</option>
                             </select>
-                        </div>
-
-                        <div class="input-line">
-                            <!-- num computers -->
-                            <label for="num-computers">Number of computers:</label>
-                            <input class="form-input" id="num-computers" type="number" name="num-computers" required>
-                        </div>
-
-                        <div class="input-line">
-                            <!-- how can we help -->
-                            <label for="how-can">How can we help?</label>
-                            <!-- <input class="form-input" id="how-can" type="text-area" name="how-can" required> -->
-                            <textarea name="how-can" form="contact-form-data"></textarea>
                         </div>
 
                         <div class="input-line">

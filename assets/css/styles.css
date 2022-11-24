@@ -89,7 +89,7 @@ ul {
 /* center section */
 #center {
     background: url('../images/background.jpg');
-    background-color: violet;
+    /* background-color: violet; */
     font-family: Ubuntu, sans-serif;
 }
 
@@ -313,7 +313,7 @@ i {
     border: 1px solid red;
 }
 
-#call-us-now h2 {
+#call-us-now .call-us-now-pushy {
     background-color: var(--background);
     margin-top: 2rem;
     font-size: 2.5rem;
@@ -328,14 +328,15 @@ i {
 .form-input {
     color: #fafafa;
     width: auto;
-    border: 1px solid var(--background);
+    border: 5px solid var(--background);
     box-sizing: border-box;
     flex-grow: 2;
+    /* border-radius: 5%; */
 }
 
 label {
-    font-size: 2rem;
-    text-align: right;
+    font-size: 1.5rem;
+    width: 50%;
 }
 
 .input-line {
@@ -353,4 +354,16 @@ label {
 #how-can{
     font-size: 2rem;
     color: var(--textcolor);
+}
+
+.send-query{
+    background-color: var(--textcolor);
+    color: var(--background);
+    font-size: 2rem;
+    padding: 1rem;
+    align-self: flex-end;
+}
+
+#how-did{
+    font-size: 2rem;
 }
