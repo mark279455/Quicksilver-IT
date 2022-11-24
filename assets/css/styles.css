@@ -21,7 +21,7 @@
 * {
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 
 body {
@@ -76,7 +76,6 @@ ul {
 
 #qit {
     color: inherit;
-    font-size: 3rem;
     text-decoration: none;
 }
 
@@ -89,7 +88,6 @@ ul {
 /* center section */
 #center {
     background: url('../images/background.jpg');
-    /* background-color: violet; */
     font-family: Ubuntu, sans-serif;
 }
 
@@ -228,10 +226,6 @@ i {
     color: var(--textcolor);
 }
 
-/* i:hover {
-    font-size: 265%;
-} */
-
 .tooltip-text {
     visibility: hidden;
     position: absolute;
@@ -243,6 +237,10 @@ i {
     font-family: Ubuntu, sans-serif;
 }
 
+.hover-text:hover {
+    font-size: 2rem;
+}
+
 .hover-text:hover .tooltip-text {
     visibility: visible;
 }
@@ -250,7 +248,6 @@ i {
 .hover-text {
     position: relative;
     display: inline-block;
-    /* margin: 10px; */
     font-family: Ubuntu, sans-serif;
     text-align: center;
 }
@@ -269,12 +266,21 @@ i {
     align-items: flex-start;
 }
 
+.service-block {
+    background-color: var(--background);
+    width: 80%;
+    margin: 1rem auto;
+    text-align: center;
+    border-radius: 8px
+}
+
 #services h2 {
     background-color: var(--background);
     margin-top: 2rem;
     display: flex;
     font-size: 3.5rem;
-    justify-content: flex-end;
+    justify-content: center;
+    /* text-align: center; */
 }
 
 #services p {
@@ -299,7 +305,7 @@ i {
 #services i {
     font-size: 4.2rem;
     padding-right: 1rem;
-    color: var(--textcolor);
+    /* color: var(--textcolor); */
 }
 
 /* contactus.html */
@@ -331,7 +337,6 @@ i {
     border: 5px solid var(--background);
     box-sizing: border-box;
     flex-grow: 2;
-    /* border-radius: 5%; */
 }
 
 label {
@@ -346,17 +351,17 @@ label {
     margin-right: 1rem;
 }
 
-.form-input{
+.form-input {
     font-size: 2rem;
     color: var(--textcolor);
 }
 
-#how-can{
+#how-can {
     font-size: 2rem;
     color: var(--textcolor);
 }
 
-.send-query{
+.send-query {
     background-color: var(--textcolor);
     color: var(--background);
     font-size: 2rem;
@@ -364,6 +369,6 @@ label {
     align-self: flex-end;
 }
 
-#how-did{
+#how-did {
     font-size: 2rem;
 }
