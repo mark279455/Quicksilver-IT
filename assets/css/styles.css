@@ -126,12 +126,12 @@ ul {
 }
 
 .blink {
-    animation: animate-blink 1s linear infinite;
+    animation: animate-blink 2s linear infinite;
 }
 
 @keyframes animate-blink {
     0% {
-        opacity: 0;
+        opacity: 0.3;
     }
 
     50% {
@@ -139,7 +139,7 @@ ul {
     }
 
     100% {
-        opacity: 0;
+        opacity: 1;
     }
 }
 
@@ -305,7 +305,6 @@ i {
 #services i {
     font-size: 4.2rem;
     padding-right: 1rem;
-    /* color: var(--textcolor); */
 }
 
 /* contactus.html */
