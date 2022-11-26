@@ -320,11 +320,9 @@ i {
 /* contactus.html */
 #call-contact {
     font-size: 3rem;
-    margin: 6rem 2rem;
+    margin: 6rem 2rem 0 2rem;
     display: flex;
     flex-direction: column;
-    /* justify-content: center;
-    align-items: center; */
     gap: 2rem;
 }
 
@@ -340,39 +338,50 @@ i {
     background-color: var(--background);
     margin: 1rem;
     border-radius: 8px;
+    padding: 2rem;
 }
 
-#contact-form form{
+#contact-form form {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 2rem;
-
 }
+
+form h2 {
+    font-size: 4rem;
+}
+
 .form-input {
     border: 5px solid var(--background);
     font-size: 2rem;
     color: var(--textcolor);
-    border-radius: 16px;
+    border-radius: 8px;
 }
 
 label {
-    font-size: 3.5rem;
-    width: 50%;
+    font-size: 2.5rem;
 }
 
 .input-line {
     display: flex;
-    gap: 13rem;
+    justify-content: space-between;
     margin-right: 1rem;
+    width: 100%;
 }
 
 .send-query {
     background-color: var(--textcolor);
     color: var(--background);
-    font-size: 2rem;
-    padding: 1rem;
+    font-size: 2.5rem;
+    padding: 1.5rem 4rem;
+    margin: 1rem 1rem 1rem auto;
+    border-radius: 8px;
 }
 
 #how-did {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 8px;
 }
