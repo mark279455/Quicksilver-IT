@@ -270,7 +270,7 @@ i {
 
 /* services.html */
 #services {
-    margin-top: 7rem;
+    margin-top: 6rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -322,22 +322,24 @@ i {
     margin: 6rem 2rem 0 2rem;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    align-items: center;
 }
 
 #call-contact .call-us-now-pushy {
     background-color: var(--background);
-    margin-top: 2rem;
-    font-size: 2.5rem;
-    padding: 1rem;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    padding: 0.5rem;
     border-radius: 8px;
+    width: 115%;
 }
 
 #contact-form {
     background-color: var(--background);
     margin: 1rem;
     border-radius: 8px;
-    padding: 2rem;
+    padding: 0.5rem;
+    width: 115%;
 }
 
 #contact-form form {
@@ -348,7 +350,7 @@ i {
 }
 
 form h2 {
-    font-size: 4rem;
+    font-size: 1.5rem;
 }
 
 .form-input {
@@ -359,7 +361,7 @@ form h2 {
 }
 
 label {
-    font-size: 2.5rem;
+    font-size: 1rem;
 }
 
 .input-line {
