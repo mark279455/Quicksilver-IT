@@ -284,6 +284,11 @@ i {
     border-radius: 8px;
 }
 
+.service-block li {
+    font-size: 0.7rem;
+    text-align: left;
+}
+
 #services h2 {
     background-color: var(--background);
     margin-top: 1rem;
@@ -305,7 +310,7 @@ i {
     width: inherit;
 }
 
-#services li {
+#services>li {
     background-color: var(--background);
     font-size: 0.5rem;
     padding-left: 4rem;
