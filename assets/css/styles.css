@@ -346,7 +346,7 @@ i {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 form h2 {
@@ -355,13 +355,20 @@ form h2 {
 
 .form-input {
     border: 5px solid var(--background);
-    font-size: 2rem;
+    font-size: 1rem;
     color: var(--textcolor);
     border-radius: 8px;
+    height: 2rem;
+    /* flex-grow: 2; */
 }
 
 label {
     font-size: 1rem;
+    /* flex-grow: 1; */
+}
+
+.num-computers {
+    width: 4rem;
 }
 
 .input-line {
@@ -374,15 +381,18 @@ label {
 .send-query {
     background-color: var(--textcolor);
     color: var(--background);
-    font-size: 2.5rem;
-    padding: 1.5rem 4rem;
+    font-size: 1rem;
+    padding: 1rem;
     margin: 1rem 1rem 1rem auto;
     border-radius: 8px;
 }
 
+.how-can {
+    height: 5rem;
+}
+
 #how-did {
-    font-size: 1.5rem;
-    padding: 1rem 2rem;
+    font-size: 1rem;
     border: none;
     border-radius: 8px;
 }
