@@ -196,9 +196,16 @@ ul {
 #testimonials li {
     background-color: var(--background);
     font-size: 0.8rem;
-    width: 80%;
+    width: 85%;
     padding: 1rem;
     border-radius: 8px
+}
+
+#testimonials li li{
+    font-weight: bold;
+    padding: 0.2rem 0;
+    text-align: right;
+    width: 100%;
 }
 
 /* footer */
@@ -404,9 +411,9 @@ label {
 
 
 /* media queries */
-/* @media only screen and (min-width: 421px) and (max-width: 672px) {
+@media only screen and (min-width: 421px) and (max-width: 672px) {
     #header-flex-parent {
         background-color: lightblue;
     }
 
-} */
+}
