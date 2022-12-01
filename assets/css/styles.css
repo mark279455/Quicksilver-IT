@@ -149,6 +149,13 @@ ul {
     }
 }
 
+/* media queries  - contactus.html */
+@media only screen and (min-width: 673px) {
+    #header-flex-parent {
+        background-color: blue;
+    }
+}
+
 /* solutions */
 #solutions ul {
     display: flex;
@@ -409,30 +416,6 @@ label {
     border-radius: 8px;
 }
 
-/* media queries  - contactus.html */
-@media only screen and (min-width: 421px) and (max-width: 672px) {
-    #header-flex-parent {
-        background-color: gray;
-    }
-
-    #contact-form {
-        margin: 2rem;
-        padding: 0.5rem;
-        width: 100%;
-        /* font-size: 2rem; */
-    }
-
-    label{
-        font-size: 1.2rem;
-        width: 50%;
-    }
-    #call-contact .call-us-now-pushy {
-        width: 100%;
-        text-align: center;
-        font-size: 1.5rem;
-    }
-}
-
 /* media queries  - index.html */
 @media only screen and (min-width: 421px) and (max-width: 672px) {
     #header-flex-parent {
@@ -457,20 +440,6 @@ label {
         align-self: self-end;
         margin-right: 1rem;
     }
-
-    /* #solutions li:nth-child(4) {
-        align-self: self-start;
-        margin-left: 1rem;
-    }
-
-    #solutions li:nth-child(5) {
-        align-self: center;
-    }
-
-    #solutions li:nth-child(6) {
-        align-self: self-end;
-        margin-right: 1rem;
-    } */
 
     #testimonials li {
         width: 70%;
@@ -511,3 +480,28 @@ label {
         align-self: flex-end;
     }
 }
+
+/* media queries  - contactus.html */
+@media only screen and (min-width: 421px) and (max-width: 672px) {
+    #header-flex-parent {
+        background-color: gray;
+    }
+
+    #contact-form {
+        margin: 2rem;
+        padding: 0.5rem;
+        width: 100%;
+        /* font-size: 2rem; */
+    }
+
+    label{
+        font-size: 1.2rem;
+        width: 50%;
+    }
+    #call-contact .call-us-now-pushy {
+        width: 100%;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}
+
