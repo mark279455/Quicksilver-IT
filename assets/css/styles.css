@@ -328,41 +328,6 @@ i {
     padding: 0 0.4rem 0 0.5rem;
 }
 
-/* media queries  - services.html */
-@media only screen and (min-width: 421px) and (max-width: 672px) {
-    #header-flex-parent {
-        background-color: gray;
-    }
-
-    /* 
-    #services h2:nth-child(1) {
-        justify-content: center;
-    } */
-    #services {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-
-    .service-block {
-        width: 47%;
-        height:auto;
-    }
-
-    .service-block:nth-child(1), .service-block:nth-child(4) {
-        align-self: flex-start;
-    }
-
-    .service-block:nth-child(2), .service-block:nth-child(5) {
-        align-self: center;
-    }
-
-    .service-block:nth-child(3), .service-block:nth-child(6) {
-        align-self: flex-end;
-    }
-}
-
-
 /* contactus.html */
 #call-contact {
     font-size: 3rem;
@@ -444,6 +409,30 @@ label {
     border-radius: 8px;
 }
 
+/* media queries  - contactus.html */
+@media only screen and (min-width: 421px) and (max-width: 672px) {
+    #header-flex-parent {
+        background-color: gray;
+    }
+
+    #contact-form {
+        margin: 2rem;
+        padding: 0.5rem;
+        width: 100%;
+        /* font-size: 2rem; */
+    }
+
+    label{
+        font-size: 1.2rem;
+        width: 50%;
+    }
+    #call-contact .call-us-now-pushy {
+        width: 100%;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}
+
 /* media queries  - index.html */
 @media only screen and (min-width: 421px) and (max-width: 672px) {
     #header-flex-parent {
@@ -455,21 +444,21 @@ label {
         width: 70%;
     }
 
-    #solutions li:nth-child(1) {
+    #solutions li:nth-child(1), #solutions li:nth-child(4) {
         align-self: self-start;
         margin-left: 1rem;
     }
 
-    #solutions li:nth-child(2) {
+    #solutions li:nth-child(2), #solutions li:nth-child(5) {
         align-self: center;
     }
 
-    #solutions li:nth-child(3) {
+    #solutions li:nth-child(3), #solutions li:nth-child(6) {
         align-self: self-end;
         margin-right: 1rem;
     }
 
-    #solutions li:nth-child(4) {
+    /* #solutions li:nth-child(4) {
         align-self: self-start;
         margin-left: 1rem;
     }
@@ -481,7 +470,7 @@ label {
     #solutions li:nth-child(6) {
         align-self: self-end;
         margin-right: 1rem;
-    }
+    } */
 
     #testimonials li {
         width: 70%;
@@ -491,5 +480,34 @@ label {
         align-self: flex-start;
         margin-left: 3rem;
     }
+}
 
+/* media queries  - services.html */
+@media only screen and (min-width: 421px) and (max-width: 672px) {
+    #header-flex-parent {
+        background-color: gray;
+    }
+
+    #services {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .service-block {
+        width: 47%;
+        height:auto;
+    }
+
+    .service-block:nth-child(1), .service-block:nth-child(4) {
+        align-self: flex-start;
+    }
+
+    .service-block:nth-child(2), .service-block:nth-child(5) {
+        align-self: center;
+    }
+
+    .service-block:nth-child(3), .service-block:nth-child(6) {
+        align-self: flex-end;
+    }
 }
