@@ -116,7 +116,7 @@ ul {
     text-align: center;
     font-size: .8rem;
     margin: 0 1rem;
-    border-radius: 8px
+    border-radius: 8px;
 }
 
 #sales-frustrated {
@@ -149,13 +149,6 @@ ul {
     }
 }
 
-/* media queries  - contactus.html */
-@media only screen and (min-width: 673px) {
-    #header-flex-parent {
-        background-color: blue;
-    }
-}
-
 /* solutions */
 #solutions ul {
     display: flex;
@@ -171,7 +164,7 @@ ul {
     font-size: 0.8rem;
     width: 90%;
     padding: 1rem;
-    border-radius: 8px
+    border-radius: 8px;
 }
 
 /* testimnoials */
@@ -188,7 +181,7 @@ ul {
     padding: 0.5rem;
     margin: 0 4rem 0.5rem 1rem;
     height: 100%;
-    border-radius: 8px
+    border-radius: 8px;
 }
 
 #testimonials>ul {
@@ -205,7 +198,7 @@ ul {
     font-size: 0.8rem;
     width: 85%;
     padding: 1rem;
-    border-radius: 8px
+    border-radius: 8px;
 }
 
 #testimonials li li {
@@ -417,7 +410,7 @@ label {
 }
 
 /* media queries  - index.html */
-@media only screen and (min-width: 421px) and (max-width: 672px) {
+@media screen and (min-width: 421px) and (max-width: 672px) {
     #header-flex-parent {
         background-color: gray;
     }
@@ -427,16 +420,19 @@ label {
         width: 70%;
     }
 
-    #solutions li:nth-child(1), #solutions li:nth-child(4) {
+    #solutions li:nth-child(1),
+    #solutions li:nth-child(4) {
         align-self: self-start;
         margin-left: 1rem;
     }
 
-    #solutions li:nth-child(2), #solutions li:nth-child(5) {
+    #solutions li:nth-child(2),
+    #solutions li:nth-child(5) {
         align-self: center;
     }
 
-    #solutions li:nth-child(3), #solutions li:nth-child(6) {
+    #solutions li:nth-child(3),
+    #solutions li:nth-child(6) {
         align-self: self-end;
         margin-right: 1rem;
     }
@@ -452,7 +448,13 @@ label {
 }
 
 /* media queries  - services.html */
-@media only screen and (min-width: 421px) and (max-width: 672px) {
+@media screen and (max-width: 421px) {
+    .computer-graphic {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 421px) and (max-width: 672px) {
     #header-flex-parent {
         background-color: gray;
     }
@@ -463,26 +465,33 @@ label {
         justify-content: space-around;
     }
 
-    .service-block {
-        width: 47%;
-        height:auto;
+    .computer-graphic {
+        display: none;
     }
 
-    .service-block:nth-child(1), .service-block:nth-child(4) {
+    .service-block {
+        width: 47%;
+        height: auto;
+    }
+
+    .service-block:nth-child(1),
+    .service-block:nth-child(4) {
         align-self: flex-start;
     }
 
-    .service-block:nth-child(2), .service-block:nth-child(5) {
+    .service-block:nth-child(2),
+    .service-block:nth-child(5) {
         align-self: center;
     }
 
-    .service-block:nth-child(3), .service-block:nth-child(6) {
+    .service-block:nth-child(3),
+    .service-block:nth-child(6) {
         align-self: flex-end;
     }
 }
 
 /* media queries  - contactus.html */
-@media only screen and (min-width: 421px) and (max-width: 672px) {
+@media screen and (min-width: 421px) and (max-width: 672px) {
     #header-flex-parent {
         background-color: gray;
     }
@@ -494,10 +503,11 @@ label {
         /* font-size: 2rem; */
     }
 
-    label{
+    label {
         font-size: 1.2rem;
         width: 50%;
     }
+
     #call-contact .call-us-now-pushy {
         width: 100%;
         text-align: center;
@@ -505,3 +515,51 @@ label {
     }
 }
 
+/* media queries  - services.html */
+@media screen and (min-width: 673px) {
+    #header-flex-parent {
+        background-color: yellow;
+    }
+
+    #services {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .service-block {
+        width: 30%;
+        height: auto;
+    }
+
+    /* .service-block:nth-child(4) {
+        width: 90%;
+        margin: 0 35%;
+    } */
+
+
+    .service-block:nth-child(1),
+    .service-block:nth-child(3) {
+        margin-top: 15rem;
+    }
+
+    .service-block:nth-child(2),
+    .service-block:nth-child(4),
+    .service-block:nth-child(6) {
+        align-self: center;
+    }
+
+    .service-block:nth-child(3),
+    .service-block:nth-child(7) {
+        align-self: flex-end;
+    }
+
+    .computer-graphic {
+        width: 30%;
+        border-radius: 8px;
+        margin: 0 35%;
+        /* height: 30%; */
+        align-self: center;
+    }
+
+}
