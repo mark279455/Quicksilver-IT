@@ -409,6 +409,23 @@ label {
     border-radius: 8px;
 }
 
+/* media query  - navigation over 672px */
+@media screen and (min-width: 672px) {
+    #header-flex-parent {
+        flex-wrap: nowrap;
+    }
+        
+  
+    #right-flex-header {
+        flex-direction: column;
+    }
+
+    #services{
+        margin-top: 0;
+    }
+    
+}
+
 /* media queries  - index.html */
 @media screen and (min-width: 421px) and (max-width: 672px) {
     #header-flex-parent {
