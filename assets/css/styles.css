@@ -431,9 +431,9 @@ label {
 
 /* media queries  - index.html */
 @media screen and (min-width: 421px) and (max-width: 672px) {
-    #header-flex-parent {
+    /* #header-flex-parent {
         background-color: gray;
-    }
+    } */
 
     #solutions li {
         font-size: 1rem;
@@ -475,9 +475,9 @@ label {
 }
 
 @media screen and (min-width: 421px) and (max-width: 672px) {
-    #header-flex-parent {
+    /* #header-flex-parent {
         background-color: gray;
-    }
+    } */
 
     #services {
         flex-direction: row;
@@ -512,9 +512,9 @@ label {
 
 /* media queries  - contactus.html */
 @media screen and (min-width: 421px) and (max-width: 672px) {
-    #header-flex-parent {
+    /* #header-flex-parent {
         background-color: gray;
-    }
+    } */
 
     #contact-form {
         margin: 2rem;
@@ -539,9 +539,9 @@ label {
 @media screen and (min-width: 673px) {
 
     /* navigation  */
-    #header-flex-parent {
+    /* #header-flex-parent {
         background-color: yellow;
-    }
+    } */
 
     #sales-banner {
         background-color: var(--background);
@@ -616,4 +616,25 @@ label {
     }
 
     /* contactus.html  */
+    #call-contact {
+        align-items: flex-start;
+    }
+    #call-contact .call-us-now-pushy {
+        font-size: 1.6rem;
+        text-align: left;
+        width: 600px;
+    }
+
+    #contact-form {
+        width: 600px;
+        align-self: flex-start;
+    }
+
+    label{
+        font-size: 1.8rem;
+    }
+
+    .form-input{
+        font-size: 1.5rem;
+    }
 }
