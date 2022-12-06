@@ -414,16 +414,19 @@ label {
     #header-flex-parent {
         flex-wrap: nowrap;
     }
-        
-  
+
+
     #right-flex-header {
         flex-direction: column;
     }
 
-    #services{
+    #services {
         margin-top: 0;
     }
-    
+
+    #call-contact {
+        margin: 0 2rem;
+    }
 }
 
 /* media queries  - index.html */
@@ -532,51 +535,85 @@ label {
     }
 }
 
-/* media queries  - services.html */
+/* media queries  - over 673px */
 @media screen and (min-width: 673px) {
+
+    /* navigation  */
     #header-flex-parent {
         background-color: yellow;
     }
 
+    #sales-banner {
+        background-color: var(--background);
+        margin: 0.5rem 1rem;
+    }
+
+    #right-flex-header li a {
+        padding: 0;
+    }
+
+    /* index.html  */
+    /* sales  */
+    #sales-banner h2 {
+        font-size: 2.4rem;
+    }
+
+    #sales-pitch {
+        font-size: 1rem;
+    }
+
+    #sales-frustrated {
+        font-size: 1.5rem;
+    }
+
+    #sales-pitch h2 {
+        font-size: 2rem;
+    }
+
+    .sales-costingyou {
+        font-size: 2.7rem;
+    }
+
+    /* solutions  */
+    #solutions ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #solutions li {
+        width: 30%;
+        font-size: 1.5rem;
+    }
+
+    /* testimonials  */
+    #testimonials {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #testimonials>ul {
+        width: 100%;
+    }
+
+    #testimonials li {
+        font-size: 1.2rem;
+    }
+
+    /* services.html  */
     #services {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    #services p {
+        font-size: 1rem;
     }
 
     .service-block {
         width: 30%;
-        height: auto;
     }
 
-    /* .service-block:nth-child(4) {
-        width: 90%;
-        margin: 0 35%;
-    } */
-
-
-    .service-block:nth-child(1),
-    .service-block:nth-child(3) {
-        margin-top: 15rem;
-    }
-
-    .service-block:nth-child(2),
-    .service-block:nth-child(4),
-    .service-block:nth-child(6) {
-        align-self: center;
-    }
-
-    .service-block:nth-child(3),
-    .service-block:nth-child(7) {
-        align-self: flex-end;
-    }
-
-    .computer-graphic {
-        width: 30%;
-        border-radius: 8px;
-        margin: 0 35%;
-        /* height: 30%; */
-        align-self: center;
-    }
-
+    /* contactus.html  */
 }
