@@ -152,6 +152,13 @@ ul {
 }
 
 /* solutions */
+#solutions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+}
+
 #solutions ul {
     display: flex;
     flex-direction: column;
@@ -167,6 +174,14 @@ ul {
     width: 90%;
     padding: 1rem;
     border-radius: 8px;
+}
+
+#solutions-top {
+    margin: -1rem 0 -3.6rem 0;
+}
+
+#solutions-bottom {
+    margin: -1rem 0 -1rem 0;
 }
 
 /* testimnoials */
@@ -577,6 +592,10 @@ label {
     }
 
     /* solutions  */
+    #solutions {
+        gap: 8rem;
+    }
+
     #solutions ul {
         flex-direction: row;
         flex-wrap: wrap;
@@ -585,6 +604,24 @@ label {
     #solutions li {
         width: 30%;
         font-size: 1.5rem;
+        align-self: flex-start;
+    }
+
+    /* 
+    #solutions-top {
+        margin: -1rem 0 -3.6rem 0;
+    }
+    
+    #solutions-bottom {
+        margin: -1rem 0 -1rem 0;
+    } */
+
+    #solutions-top {
+        max-height: 32rem;
+    }
+
+    #solutions-bottom {
+        max-height: 32rem;
     }
 
     /* testimonials  */
@@ -621,6 +658,7 @@ label {
     #call-contact {
         align-items: flex-start;
     }
+
     #call-contact .call-us-now-pushy {
         font-size: 1.6rem;
         text-align: left;
@@ -632,11 +670,11 @@ label {
         align-self: flex-start;
     }
 
-    label{
+    label {
         font-size: 1.8rem;
     }
 
-    .form-input{
+    .form-input {
         font-size: 1.5rem;
     }
 }
