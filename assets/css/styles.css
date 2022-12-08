@@ -593,41 +593,30 @@ label {
 
     /* solutions  */
     #solutions {
-        gap: 8rem;
+        gap: 1rem;
     }
 
     #solutions ul {
         flex-direction: row;
         flex-wrap: wrap;
+        height: 100%;
     }
 
     #solutions li {
         width: 30%;
         font-size: 1.5rem;
         align-self: flex-start;
-    }
-
-    /* 
-    #solutions-top {
-        margin: -1rem 0 -3.6rem 0;
-    }
-    
-    #solutions-bottom {
-        margin: -1rem 0 -1rem 0;
-    } */
-
-    #solutions-top {
-        max-height: 32rem;
-    }
-
-    #solutions-bottom {
-        max-height: 32rem;
+        height: 100%;
     }
 
     /* testimonials  */
     #testimonials {
         flex-direction: row;
         flex-wrap: wrap;
+    }
+
+    #testimonials h2 {
+        margin: 1rem 0 0.5rem 1rem;
     }
 
     #testimonials>ul {
