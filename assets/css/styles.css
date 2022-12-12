@@ -26,7 +26,6 @@
 
 body {
     font-family: Montserrat, sans-serif;
-    /* background-color: var(--background); */
     color: var(--textcolor);
 }
 
@@ -188,7 +187,6 @@ ul {
 #testimonials {
     display: flex;
     flex-direction: column;
-    /* margin-bottom: 2rem; */
 }
 
 #testimonials h2 {
@@ -205,7 +203,6 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    /* justify-content: flex-end; */
     align-items: flex-end;
     margin: 0 1rem 0.7rem -2rem;
 }
@@ -229,7 +226,6 @@ ul {
 footer {
     background-color: var(--background);
     font-family: Ubuntu, sans-serif;
-    /* max-height: 120px; */
     color: var(--textcolor);
 }
 
@@ -297,13 +293,12 @@ i {
     margin-top: 6rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .service-block {
     background-color: var(--background);
     width: 95%;
-    margin: 0.6rem 0;
+    margin: 0.6rem;
     text-align: center;
     border-radius: 8px;
 }
@@ -319,7 +314,6 @@ i {
     display: flex;
     font-size: 1.8rem;
     justify-content: center;
-    /* text-align: center; */
 }
 
 #services p {
@@ -388,12 +382,10 @@ form h2 {
     color: var(--textcolor);
     border-radius: 8px;
     height: 2rem;
-    /* flex-grow: 2; */
 }
 
 label {
     font-size: 1rem;
-    /* flex-grow: 1; */
 }
 
 .num-computers {
@@ -427,7 +419,7 @@ label {
 }
 
 /* media query  - navigation over 672px */
-@media screen and (min-width: 672px) {
+@media screen and (min-width: 673px) {
     #header-flex-parent {
         flex-wrap: nowrap;
     }
@@ -448,10 +440,6 @@ label {
 
 /* media queries  - index.html */
 @media screen and (min-width: 421px) and (max-width: 672px) {
-    /* #header-flex-parent {
-        background-color: gray;
-    } */
-
     #solutions li {
         font-size: 1rem;
         width: 70%;
@@ -485,55 +473,28 @@ label {
 }
 
 /* media queries  - services.html */
-@media screen and (max-width: 421px) {
-}
+@media screen and (max-width: 421px) {}
 
 @media screen and (min-width: 421px) and (max-width: 672px) {
-    /* #header-flex-parent {
-        background-color: gray;
-    } */
 
     #services {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
-        align-items: flex-start;
     }
 
     .service-block {
-        width: 47%;
-        /* height: auto; */
+        width: 45%;
     }
-
-    /* .service-block:nth-child(1),
-    .service-block:nth-child(3),
-    .service-block:nth-child(5) {
-        align-self: flex-start;
-    }
-
-    .service-block:nth-child(2),
-    .service-block:nth-child(4),
-    .service-block:nth-child(6) {
-        align-self: center;
-    } */
-
-    /* .service-block:nth-child(3),
-    .service-block:nth-child(6) {
-        align-self: flex-end;
-    } */
 }
 
 /* media queries  - contactus.html */
 @media screen and (min-width: 421px) and (max-width: 672px) {
-    /* #header-flex-parent {
-        background-color: gray;
-    } */
 
     #contact-form {
         margin: 2rem;
         padding: 0.5rem;
         width: 100%;
-        /* font-size: 2rem; */
     }
 
     label {
@@ -550,11 +511,6 @@ label {
 
 /* media queries  - over 673px */
 @media screen and (min-width: 673px) {
-
-    /* navigation  */
-    /* #header-flex-parent {
-        background-color: yellow;
-    } */
 
     #sales-banner {
         background-color: var(--background);
@@ -628,7 +584,6 @@ label {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        align-items: flex-start;
     }
 
     #services p {
@@ -637,7 +592,6 @@ label {
 
     .service-block {
         width: 30%;
-        height: 100%;
     }
 
     /* contactus.html  */
