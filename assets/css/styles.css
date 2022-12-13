@@ -3,19 +3,6 @@
 :root {
     --background: #a5f4dc;
     --textcolor: #165B11;
-    --dark1: #165B11;
-    --dark2: #005A33;
-    --dark3: #00584B;
-    --dark4: #00545A;
-    --dark5: #044E5E;
-    --dark6: #2F4858;
-
-    --light1: #A5F4DC;
-    --light2: #81D0C8;
-    --light3: #65ACB0;
-    --light4: #508995;
-    --light5: #3E6878;
-    --light6: #2F4858;
 }
 
 * {
@@ -133,16 +120,16 @@ ul {
 
 .blink {
     z-index: -1;
-    animation: animate-blink 2s linear infinite;
+    animation: animate-blink 1.5s linear infinite;
 }
 
 @keyframes animate-blink {
     0% {
-        opacity: 0.3;
+        opacity: 0.2;
     }
 
     50% {
-        opacity: 1;
+        opacity: 0.5;
     }
 
     100% {
@@ -154,8 +141,6 @@ ul {
 #solutions {
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
-
 }
 
 #solutions ul {
@@ -164,7 +149,7 @@ ul {
     gap: 0.5rem;
     justify-content: center;
     align-items: center;
-    margin: 1.5rem 0;
+    margin: 0.3rem 0;
 }
 
 #solutions li {
@@ -256,6 +241,7 @@ i {
     color: var(--textcolor);
 }
 
+/* tooltips for social media */
 .tooltip-text {
     visibility: hidden;
     position: absolute;
@@ -297,7 +283,6 @@ i {
 
 .service-block {
     background-color: var(--background);
-    width: 95%;
     margin: 0.6rem;
     text-align: center;
     border-radius: 8px;
@@ -418,28 +403,8 @@ label {
     border-radius: 8px;
 }
 
-/* media query  - navigation over 672px */
-@media screen and (min-width: 673px) {
-    #header-flex-parent {
-        flex-wrap: nowrap;
-    }
-
-
-    #right-flex-header {
-        flex-direction: column;
-    }
-
-    #services {
-        margin-top: 0;
-    }
-
-    #call-contact {
-        margin: 0 2rem;
-    }
-}
-
-/* media queries  - index.html */
-@media screen and (min-width: 421px) and (max-width: 672px) {
+/* media queries  - index.html - over 420px */
+@media screen and (min-width: 421px) {
     #solutions li {
         font-size: 1rem;
         width: 70%;
@@ -470,13 +435,8 @@ label {
         align-self: flex-start;
         margin-left: 3rem;
     }
-}
 
-/* media queries  - services.html */
-@media screen and (max-width: 421px) {}
-
-@media screen and (min-width: 421px) and (max-width: 672px) {
-
+    /* media queries  - services.html - over 420px */
     #services {
         flex-direction: row;
         flex-wrap: wrap;
@@ -486,10 +446,8 @@ label {
     .service-block {
         width: 45%;
     }
-}
 
-/* media queries  - contactus.html */
-@media screen and (min-width: 421px) and (max-width: 672px) {
+    /* media queries  - contactus.html - over 420px */
 
     #contact-form {
         margin: 2rem;
@@ -509,20 +467,29 @@ label {
     }
 }
 
-/* media queries  - over 673px */
+/* media queries - over 673px */
 @media screen and (min-width: 673px) {
 
-    #sales-banner {
-        background-color: var(--background);
-        margin: 0.5rem 1rem;
+    /* media query  - navigation section - all pages - over 673px */
+    #header-flex-parent {
+        flex-wrap: nowrap;
+    }
+
+    #right-flex-header {
+        flex-direction: column;
     }
 
     #right-flex-header li a {
         padding: 0;
     }
 
-    /* index.html  */
-    /* sales  */
+    /* index.html - over 673px */
+    /* sales section - over 673px */
+    #sales-banner {
+        background-color: var(--background);
+        margin: 0.5rem 1rem;
+    }
+
     #sales-banner h2 {
         font-size: 2.4rem;
     }
@@ -543,7 +510,7 @@ label {
         font-size: 2.7rem;
     }
 
-    /* solutions  */
+    /* solutions section - over 673px */
     #solutions {
         gap: 1rem;
     }
@@ -561,7 +528,7 @@ label {
         height: 100%;
     }
 
-    /* testimonials  */
+    /* testimonials section - over 673px */
     #testimonials {
         flex-direction: row;
         flex-wrap: wrap;
@@ -579,11 +546,12 @@ label {
         font-size: 1.2rem;
     }
 
-    /* services.html  */
+    /* services.html - over 673px */
     #services {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-evenly;
+        margin-top: 0;
     }
 
     #services p {
@@ -594,9 +562,10 @@ label {
         width: 30%;
     }
 
-    /* contactus.html  */
+    /* contactus.html - over 673px */
     #call-contact {
         align-items: flex-start;
+        margin: 0 2rem;
     }
 
     #call-contact .call-us-now-pushy {
