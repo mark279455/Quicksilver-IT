@@ -448,11 +448,8 @@ label {
     }
 
     /* media queries  - contactus.html - over 420px */
-
     #contact-form {
-        margin: 2rem;
         padding: 0.5rem;
-        width: 100%;
     }
 
     label {
@@ -467,10 +464,10 @@ label {
     }
 }
 
-/* media queries - over 673px */
+/* media queries - over 672px */
 @media screen and (min-width: 673px) {
 
-    /* media query  - navigation section - all pages - over 673px */
+    /* media query  - navigation section - all pages - over 672px */
     #header-flex-parent {
         flex-wrap: nowrap;
     }
@@ -483,8 +480,8 @@ label {
         padding: 0;
     }
 
-    /* index.html - over 673px */
-    /* sales section - over 673px */
+    /* index.html - over 672px */
+    /* sales section - over 672px */
     #sales-banner {
         background-color: var(--background);
         margin: 0.5rem 1rem;
@@ -510,7 +507,7 @@ label {
         font-size: 2.7rem;
     }
 
-    /* solutions section - over 673px */
+    /* solutions section - over 672px */
     #solutions {
         gap: 1rem;
     }
@@ -528,7 +525,7 @@ label {
         height: 100%;
     }
 
-    /* testimonials section - over 673px */
+    /* testimonials section - over 672px */
     #testimonials {
         flex-direction: row;
         flex-wrap: wrap;
@@ -546,7 +543,7 @@ label {
         font-size: 1.2rem;
     }
 
-    /* services.html - over 673px */
+    /* services.html - over 672px */
     #services {
         flex-direction: row;
         flex-wrap: wrap;
@@ -562,7 +559,7 @@ label {
         width: 30%;
     }
 
-    /* contactus.html - over 673px */
+    /* contactus.html - over 672px */
     #call-contact {
         align-items: flex-start;
         margin: 0 2rem;
@@ -576,7 +573,6 @@ label {
 
     #contact-form {
         width: 600px;
-        align-self: flex-start;
     }
 
     label {
