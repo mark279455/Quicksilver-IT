@@ -35,6 +35,7 @@ ul {
     justify-content: flex-start;
     align-items: flex-end;
     font-size: 0.75rem;
+    margin-bottom: -0.2rem;
 }
 
 #right-flex-header {
@@ -42,7 +43,7 @@ ul {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-    padding: 2.2rem;
+    padding: 1.2rem;
     background-color: var(--background);
 }
 
@@ -55,11 +56,7 @@ ul {
 
 #active {
     font-size: 2rem;
-    font-weight: bold;
-}
-
-#qit-logo {
-    height: 150px;
+    font-weight: bolder;
 }
 
 #qit {
@@ -75,7 +72,7 @@ ul {
 
 /* center section */
 #center {
-    background: url('../images/background.jpg');
+    background: url('../images/background.webp');
     font-family: Ubuntu, sans-serif;
 }
 
@@ -90,7 +87,7 @@ ul {
 
 #sales-banner {
     background-color: var(--background);
-    margin: 6.4rem 1rem -0.5rem 1rem;
+    margin: 4.4rem 1rem -0.5rem 1rem;
     padding: 0.9rem;
     font-size: 0.9rem;
     border-radius: 8px;
@@ -279,6 +276,7 @@ i {
     margin-top: 6rem;
     display: flex;
     flex-direction: column;
+    margin-top: 3.9rem;
 }
 
 .service-block {
@@ -327,7 +325,7 @@ i {
 /* contactus.html */
 #call-contact {
     font-size: 3rem;
-    margin: 6rem 2rem 0 2rem;
+    margin: 4rem 2rem 0 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -347,7 +345,7 @@ i {
     margin: 1rem 0;
     border-radius: 8px;
     padding: 0.5rem;
-    width: 115%;
+    width: 110%;
 }
 
 #contact-form form {
@@ -367,6 +365,7 @@ form h2 {
     color: var(--textcolor);
     border-radius: 8px;
     height: 2rem;
+    width: 90%;
 }
 
 label {
@@ -479,6 +478,15 @@ label {
     #right-flex-header li a {
         padding: 0;
     }
+
+    #address {
+        font-size: 1rem;
+    }
+
+    #copyright {
+        font-size: 1rem;
+    }
+
 
     /* index.html - over 672px */
     /* sales section - over 672px */

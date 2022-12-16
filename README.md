@@ -184,11 +184,11 @@ Wireframes were created for the following screen widths:
     *   How did you hear about us - 
 
         This option gives a dropdown with the following options:
-    +   Internet search
-    +   Advertisement
-    +   Social media
-    +   Word of mouth
-    +   Business networking
+        +   Internet search
+        +   Advertisement
+        +   Social media
+        +   Word of mouth
+        +   Business networking
 
     As screen width increases the form increases width and font until 763px wide is reached, when it stays at a set width of 584px wide.
 
