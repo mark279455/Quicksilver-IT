@@ -9,7 +9,7 @@ The site is designed to show potential customers what services the company offer
 
 It is hosted on Github here [Quicksilver IT](https://mark279455.github.io/Quicksilver-IT/index.html)
 
-[Mark Cooper Github](https://github.com/mark279455)
+[Mark Cooper QuicksilverIT Github Repository](https://github.com/mark279455/Quicksilver-IT)
 
 ## Technology Used
 
@@ -193,3 +193,33 @@ Wireframes were created for the following screen widths:
     As screen width increases the form increases width and font until 763px wide is reached, when it stays at a set width of 584px wide.
 
     
+---
+## Tests and Validation
+
+the three html files were validated successfully by the W3.org html validator.
+
+![HTML VALIDATION](documentation/w3.org-html-validator.JPG)
+
+The site was verified by the W3.org CSS Validator page as well.
+
+![CSS VALIDATION](documentation/w3.org-css-validator.JPG)
+
+
+Lighthouse provided scores all over 90%, and also warned about the Logo being low resolution. This was a design choice.
+
+![LIGHTHOUSE](documentation/lighthouse.JPG)
+
+Wave produced a report showing 2 alerts.
+
+![WAVE1](documentation/wave1.JPG)
+![WAVE2](documentation/wave2.JPG)
+
+These alerts related to a duplicated link in the header - which was a design choice.
+
+
+---
+## Bugs
+
+The form on the contactus page does not check that the input for number of computers is negative. For this to work, javascript would be required.
+
+
