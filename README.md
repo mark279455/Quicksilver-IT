@@ -192,20 +192,34 @@ Wireframes were created for the following screen widths:
 
     As screen width increases the form increases width and font until 763px wide is reached, when it stays at a set width of 584px wide.
 
-    
+
 ---
-## Tests and Validation
+## Deployment
 
-the three html files were validated successfully by the W3.org html validator.
+The website has been deployed using Github pages.
 
-![HTML VALIDATION](documentation/w3.org-html-validator.JPG)
+
+---
+## Tests 
+
+Validation
+The three html files were validated successfully by the W3C validator.
+
+* [Index Page](https://validator.w3.org/nu/?showsource=yes&doc=https://mark279455.github.io/Quicksilver-IT/index.html)
+
+* [Services Page](https://validator.w3.org/nu/?showsource=yes&doc=https://mark279455.github.io/Quicksilver-IT/services.html)
+
+* [Contact us Page](https://validator.w3.org/nu/?showsource=yes&doc=https://mark279455.github.io/Quicksilver-IT/contactus.html)
+
+* [Styles.css](https://validator.w3.org/nu/?showsource=yes&doc=https://mark279455.github.io/Quicksilver-IT/assets/css/styles.css)
 
 The site was verified by the W3.org CSS Validator page as well.
 
 ![CSS VALIDATION](documentation/w3.org-css-validator.JPG)
 
+## Lighthouse
 
-Lighthouse provided scores all over 90%, and also warned about the Logo being low resolution. This was a design choice.
+Lighthouse initially gave slower results than required. Images on the site were converted from .jpg to to .webp format, this successfully improved the loading times and raised the Lighthouse scores to be all over 90%.
 
 ![LIGHTHOUSE](documentation/lighthouse.JPG)
 
@@ -223,3 +237,10 @@ These alerts related to a duplicated link in the header - which was a design cho
 The form on the contactus page does not check that the input for number of computers is negative. For this to work, javascript would be required.
 
 
+## Tables
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |

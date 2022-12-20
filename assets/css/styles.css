@@ -38,6 +38,11 @@ ul {
     margin-bottom: -0.2rem;
 }
 
+#qit-logo {
+    height: 150px;
+    width: 150px;
+}
+
 #right-flex-header {
     width: 100%;
     display: flex;
