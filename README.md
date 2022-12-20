@@ -260,3 +260,5 @@ These alerts related to a duplicated link in the header - which was a design cho
 
 The form on the contactus page does not check that the input for number of computers is negative. For this to work, javascript would be required.
 
+Have a credits section. Also the deployment section, detail how you would deploy it, ie the steps involved, but there is plenty of detail there
+
