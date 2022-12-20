@@ -51,7 +51,7 @@ the background image is one the creator took of his daughter's laptop.
 ## Wireframes
 
 
-Wireframes were created for the following screen widths:
+Wireframes were created using Balsamiq for the following screen widths:
 
 320 - 420 px wide
 421 = 672 px wide
@@ -60,54 +60,54 @@ Wireframes were created for the following screen widths:
 ### Index.html - less than 420px
 
 
-![Home Page](documentation/index-420.png)
+![Home Page](documentation/wireframes/index-420.png)
 
 
 ### Index.html - 421 to 672px
 
-![Home Page](documentation/index-421-672.png)
+![Home Page](documentation/wireframes/index-421-672.png)
 
 
 
 ### Index.html - 673px and wider
 
-![Home Page](documentation/index-673+.png)
+![Home Page](documentation/wireframes/index-673+.png)
 
 
 
 ### services.html - less than 420px
 
 
-![Home Page](documentation/services-420.png)
+![Home Page](documentation/wireframes/services-420.png)
 
 
 ### services.html - 421 to 672px
 
-![Home Page](documentation/services-421-672.png)
+![Home Page](documentation/wireframes/services-421-672.png)
 
 
 
 ### services.html - 673px and wider
 
-![Home Page](documentation/services-673+.png)
+![Home Page](documentation/wireframes/services-673+.png)
 
 
 
 ### contactus.html - less than 420px
 
 
-![Home Page](documentation/contactus-420.png)
+![Home Page](documentation/wireframes/contactus-420.png)
 
 
 ### contactus.html - 421 to 672px
 
-![Home Page](documentation/contactus-421-672.png)
+![Home Page](documentation/wireframes/contactus-421-672.png)
 
 
 
 ### contactus.html - 673px and wider
 
-![Home Page](documentation/contactus-673+.png)
+![Home Page](documentation/wireframes/contactus-673+.png)
 
 
 ---
@@ -215,18 +215,42 @@ The three html files were validated successfully by the W3C validator.
 
 The site was verified by the W3.org CSS Validator page as well.
 
-![CSS VALIDATION](documentation/w3.org-css-validator.JPG)
+![CSS VALIDATION](documentation/testing/w3.org-css-validator.jpg)
+
 
 ## Lighthouse
 
 Lighthouse initially gave slower results than required. Images on the site were converted from .jpg to to .webp format, this successfully improved the loading times and raised the Lighthouse scores to be all over 90%.
 
-![LIGHTHOUSE](documentation/lighthouse.JPG)
+index.html
+![LIGHTHOUSE](documentation/testing/lighthouse-index.jpg)
 
-Wave produced a report showing 2 alerts.
+services.html
+![LIGHTHOUSE](documentation/testing/lighthouse-services.jpg)
 
-![WAVE1](documentation/wave1.JPG)
-![WAVE2](documentation/wave2.JPG)
+contactus.html
+![LIGHTHOUSE](documentation/testing/lighthouse-contactus.jpg)
+
+
+## Wave
+
+index.html
+
+![WAVE-INDEX](documentation/testing/wave-index.jpg)
+
+services.html
+
+![WAVE-SERVICES](documentation/testing/wave-services.jpg)
+
+contactus.html
+
+![WAVE-CONTACTUS](documentation/testing/wave-contactus.jpg)
+
+Wave produced a report showing 2 alerts on each page. This alert was in the header which is common to all pages.
+
+![WAVE-ALERT](documentation/testing/wave-redundant-in-header.jpg)
+
+![WAVE2](documentation/testing/wave2.jpg)
 
 These alerts related to a duplicated link in the header - which was a design choice.
 
@@ -236,11 +260,3 @@ These alerts related to a duplicated link in the header - which was a design cho
 
 The form on the contactus page does not check that the input for number of computers is negative. For this to work, javascript would be required.
 
-
-## Tables
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
