@@ -18,8 +18,14 @@ CSS
 Google Fonts
 Font Awesome icons (these require javascript)
 
-## Design
+## Credits
 
+Cedits are due to...
+Gareth_mentor for his advice and recommendations.
+Daisy_mentor and Cheryl_Phillips_5P for their tips and help during the November Hackathon.
+ger_ci for help and advice with flexbox and grid.
+
+## Design
 
 The site consists of 3 responsive pages.
 index.html
@@ -198,6 +204,10 @@ Wireframes were created using Balsamiq for the following screen widths:
 
 The website has been deployed using Github pages.
 
+on Github, goto settings and then pages.
+deploy from branch, main and root.
+
+The site uses relative references, and so deployment in a local environment requires only a web server and a dedicated directory for the project
 
 ---
 ## Tests 
@@ -260,5 +270,4 @@ These alerts related to a duplicated link in the header - which was a design cho
 
 The form on the contactus page does not check that the input for number of computers is negative. For this to work, javascript would be required.
 
-Have a credits section. Also the deployment section, detail how you would deploy it, ie the steps involved, but there is plenty of detail there
 
