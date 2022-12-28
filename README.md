@@ -2,6 +2,8 @@
 
 README.md file for my Code Institutute first project.
 
+![Techsini](documentation/testing/techsini.JPG)
+
 I decided to do a simple design for a company that I used to own.
 Quicksilver IT Ltd provided IT support for small businesses in Hertfordshire.
 
@@ -242,6 +244,14 @@ The project will now of been cloned on your local machine for use.
 
 ---
 ## Tests 
+
+Tests were done on all links on all pages - namely the navigation system.
+
+the Home, Services and Contact tabs in the header point to the index.html, services.html and contactus.html respectively.
+The Quicksilver IT logo in the top left of each page also redirects to the home page.
+
+All pages were tested to ensure responsiveness on screen sizes from 320px and upwards as defined in [WCAG 2.1 Reflow criteria for responsive design](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html) Chrome, Edge, Firefox and Opera browsers.
+
 
 Validation
 The three html files were validated successfully by the W3C validator.
